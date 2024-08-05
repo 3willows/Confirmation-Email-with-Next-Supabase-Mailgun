@@ -1,4 +1,15 @@
-# Confirmation-Email-with-Next-Supabase-Mailgun
+# Next-Supabase-Mailgun: Quick Start
+
+## Aim
+
+- Use Next, Supabase and Mailgun, to make to-do list app.
+- When user enters an item, it is saved to Supabase, and an email is sent.
+
+## Motivation
+
+- Get familiar with these technologies so as to implement a confirmation email feature to a Next + Supabase project with Mailgun.
+
+## Tech stack
 
 - Frontend:
   - [Next.js](https://github.com/vercel/next.js) - a React framework for production.
@@ -8,9 +19,9 @@
   - [supabase.com/dashboard](https://supabase.com/dashboard/): hosted Postgres database with restful API for usage with Supabase.js.
 - Mailgun
 
-## Notes from one of the original SupaBase Quick Start
+### Notes from the original SupaBase Quick Start
 
-### Get the URL and Key
+#### Get the URL and Key
 
 Go to the Project Settings (the cog icon), open the API tab, and find your API URL and `anon` key, you'll need these in the next step.
 
@@ -20,9 +31,9 @@ The `anon` key is your client-side API key. It allows "anonymous access" to your
 
 **_NOTE_**: The `service_role` key has full access to your data, bypassing any security policies. These keys have to be kept secret and are meant to be used in server environments and never on a client or browser.
 
-## Supabase details
+### Supabase details
 
-### Postgres Row level security
+#### Postgres Row level security
 
 This project uses very high-level Authorization using Postgres' Row Level Security.
 When you start a Postgres database on Supabase, we populate it with an `auth` schema, and some helper functions.
