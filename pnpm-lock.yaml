@@ -41,6 +41,9 @@ importers:
       eslint-config-next:
         specifier: 13.1.6
         version: 13.1.6(eslint@8.34.0)(typescript@4.9.5)
+      form-data:
+        specifier: ^4.0.0
+        version: 4.0.0
       mailgun.js:
         specifier: ^10.2.3
         version: 10.2.3
@@ -57,9 +60,6 @@ importers:
         specifier: 4.9.5
         version: 4.9.5
     devDependencies:
-      '@types/form-data':
-        specifier: ^2.5.0
-        version: 2.5.0
       concurrently:
         specifier: ^7.6.0
         version: 7.6.0
@@ -265,10 +265,6 @@ packages:
 
   '@swc/helpers@0.4.14':
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
-
-  '@types/form-data@2.5.0':
-    resolution: {integrity: sha512-23/wYiuckYYtFpL+4RPWiWmRQH2BjFuqCUi2+N3amB1a1Drv+i/byTrGvlLwRVLFNAZbwpbQ7JvTK+VCAPMbcg==}
-    deprecated: This is a stub types definition. form-data provides its own type definitions, so you do not need this installed.
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
@@ -1926,10 +1922,6 @@ snapshots:
   '@swc/helpers@0.4.14':
     dependencies:
       tslib: 2.6.3
-
-  '@types/form-data@2.5.0':
-    dependencies:
-      form-data: 4.0.0
 
   '@types/json5@0.0.29': {}
 
