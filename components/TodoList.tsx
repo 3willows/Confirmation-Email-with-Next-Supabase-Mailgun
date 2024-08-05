@@ -62,7 +62,10 @@ export default function TodoList({ session }: { session: Session }) {
 
   return (
     <div className="w-full">
-      <h1 className="mb-12">Todo List.</h1>
+            <h1 className="mb-2 text-xl"> Next + Supabase + Mailgun </h1>
+
+      <h2 className="mb-2">Send an item to my Supabase Database + my nominated Mailgun email at the same time.  </h2>
+      <h2 className="mb-2"> You won't see anything in your email: just some items after you log in!</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault()
