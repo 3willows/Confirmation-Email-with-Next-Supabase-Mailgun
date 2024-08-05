@@ -65,7 +65,7 @@ export default function TodoList({ session }: { session: Session }) {
             <h1 className="mb-2 text-xl"> Next + Supabase + Mailgun </h1>
 
       <h2 className="mb-2">Send an item to my Supabase Database + my nominated Mailgun email at the same time.  </h2>
-      <h2 className="mb-2"> You won't see anything in your email: just some items after you log in!</h2>
+      <h2 className="mb-2"> You won't actually get a confirmation email: still working on it!</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault()
